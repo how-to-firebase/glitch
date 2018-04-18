@@ -58,6 +58,7 @@ typings/
 .env
 
 # Glitch
+*.tgz
 **/.config
 **/.data
 **/dist
