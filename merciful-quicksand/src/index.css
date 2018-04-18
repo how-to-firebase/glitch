@@ -1,0 +1,61 @@
+#app {
+ display: flex;
+ justify-content: center;
+}
+
+#chatWrapper {
+  max-width: 40rem; 
+  width: 100%;
+}
+
+#chatPaper {
+  height: calc(100vh - 6rem);
+  margin: 2rem; 
+  font-size: 1.25rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginButton {
+  color: white; 
+  padding: 1rem !important; 
+  font-size: 2rem !important;
+}
+
+.logoutButton {
+  position: absolute !important;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+}
+
+#chatList, #chatForm {
+  width: calc(100% - 4rem); 
+}
+
+#chatList {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.chatListSubheader {
+ background-color: rgba(255, 255, 255, .95);
+}
+
+#chatForm {
+  padding: 2rem;
+  
+  display: flex;
+  align-items: center;
+}
+
+.chatInput {
+  flex-grow: 1;
+  
+  width: 100%;
+  margin-right: 2rem !important;
+}
+
