@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# Glitch
+.config
+.data
+dist
+.glitch-assets
+.node_repl_history
+.pnpm-store
+shrinkwrap.yaml
+.viminfo
